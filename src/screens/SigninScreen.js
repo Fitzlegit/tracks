@@ -9,6 +9,6 @@ const SigninScreen = () => {
   );
 };
 
-const styles = Stylesheet.create({});
+const styles = StyleSheet.create({});
 
-export default AccountScreen;
+export default SigninScreen;

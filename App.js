@@ -5,9 +5,9 @@ import { createBottomTabNavigator } from "react-navigation-tabs";
 import AccountScreen from "./src/screens/AccountScreen";
 import SigninScreen from "./src/screens/SigninScreen";
 import SignupScreen from "./src/screens/SignupScreen";
-import TractCreateScreen from "./src/screens/TrackCreateScreen";
-import TractDetailScreen from "./src/screens/TrackDetailsScreen";
-import TractListScreen from "./src/screens/TrackListScreen";
+import TrackCreateScreen from "./src/screens/TrackCreateScreen";
+import TrackDetailScreen from "./src/screens/TrackDetailScreen";
+import TrackListScreen from "./src/screens/TrackListScreen";
 
 const switchNavigator = createSwitchNavigator({
   loginFlow: createStackNavigator({
